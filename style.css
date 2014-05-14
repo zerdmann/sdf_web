@@ -1,0 +1,190 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+html {
+  font-size: 16;
+  background: url('img/triangular_@2x.png') center center repeat;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+body {
+  margin: 0;
+  /* background: #d5d5d5;
+   background: url('img/triangular_@2x.png') center center repeat; */
+  width: 100%;
+  height:100%
+}
+section#header {
+  margin:0;
+  padding-top: 5vw;
+
+}
+
+.iwrp {
+	width:21rem;
+	margin: auto;
+  padding-right: 3rem;
+}
+
+.iwrp img {
+
+		padding-top: 1rem;
+max-width:98%;
+padding-bottom:.5rem;
+}
+
+hgroup {
+  display: block;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 2vw;
+}
+hgroup h1,
+hgroup h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+hgroup h1 {
+  font-family: "Days One";
+  font-size: 1.6em;
+}
+hgroup h2 {
+  font-family: "Lato";
+  font-size: 4.2rem;
+  font-weight: 100;
+}
+footer {
+  border-top: #000000 solid 2px;
+  overflow: hidden;
+  width: 100%;
+  /* background: #6b6b73; */
+  background: rgba(104,104,110,1);
+  text-align: center;
+  padding: 0;
+  padding-bottom: 4.3em;
+  max-height: 3%;
+  height:10vw;
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+
+}
+
+footer h2{
+  margin-bottom: 0;
+}
+footer a {
+  padding: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #a50202;
+  font-family: "Lato";
+  font-weight: 300;
+  text-shadow: 1px 1px #222;
+}
+footer a:hover {
+  color: white;
+  background: #a50202;
+}
+footer h3 {
+  margin-top: 0;
+  padding: 0;
+  font-family: "Days One";
+}
+
+#wrapper {
+  box-shadow: 0px 0px;
+  width:960px;
+  height: 400vw;
+  overflow: hidden;
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200%;
+  margin-left: -480px;
+  pointer-events:none;
+
+}
+
+#about h2{
+  font-family: "Days One";
+  text-align: center;
+}
+
+section#about {
+  padding-top: 3rem;
+  font-family: "Anonymous Pro", monospace;
+
+}
+
+#work h2{
+  font-family: "Days One";
+  text-align: center;
+}
+
+section#work {
+    padding-top: 3rem;
+  font-family: "Anonymous Pro", monospace;
+
+}
+
+section p {
+  width:900px;
+  text-indent: 2rem;
+  margin:auto;
+  padding-bottom: 1rem;
+}
+
+section {
+    background: rgba(213,213,213,0.8);
+  margin:0;
+  padding:0;
+ width: 100%;
+ height: 100%;
+ z-index: 30;
+}
+
+#work iframe {
+  display: inline-block;
+  width:640;
+  height:360px;
+}
+
+#work_text{
+  display: inline-block;
+  width: 270px;
+  padding-top: -8rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+
+}
+
+#work p{
+  text-indent: 0;
+  margin-right: 1rem;
+  width: inherit;
+}
+#work h3{
+  font-family: "Days One";
+  text-align: left;
+  width:inherit;
+}
+
+#work_wrapper
+{
+  display: block;
+  width:960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#work_bar
+{
+  width:960px;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+  height:150px;
+

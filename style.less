@@ -1,0 +1,84 @@
+@red: #a50202;
+@grey: #d5d2d2;
+@dark: #6b6b67;
+
+html {
+    font-size: 16;
+}
+
+body {
+    margin: 0;
+    background: @grey;
+    width:100%;
+}
+header {
+    margin:0;
+    background: @grey;
+    width:100%;
+
+}
+
+hgroup {
+    display: block;
+    background: url("sdf_logo_use.png")  no-repeat 46% 0%;
+    width:60%;
+    margin: auto;
+    margin-top:3vw;
+    background-size: 20vw;
+    padding-top:25vw;
+    padding-bottom:2vw;
+    h1, h2 {
+        margin:0;
+        padding:0;
+        text-align:center;
+    }
+    h1 {
+        font-family: "Days One";
+        font-size:1.6em;
+    }
+    h2{
+        font-family: "Lato";
+        font-size:4.2rem;
+        font-weight:100;
+    }
+}
+
+footer {
+    border-top: darken(@dark, 60%) solid 2px;
+    overflow: hidden;
+    width:100%;
+    background:@dark;
+    text-align:center;
+    padding:0;
+    padding-bottom:4.3em;
+    z-index:-10;
+
+    a {
+        padding:0;
+        padding-left:1rem;
+        padding-right:1rem;
+        text-decoration:none;
+        color:@red;
+        font-family:"Lato";
+        font-weight:300;
+    }
+    a:hover {
+            color: white;
+            background:@red;
+        }
+    
+    h3 {
+        padding:0;
+        font-family: "Days One";
+    }
+}
+
+div {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background:@dark;
+    z-index:-100;
+    height:80%;
+    display:block;
+}
